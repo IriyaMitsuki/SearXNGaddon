@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "SearXNG Search & New Tab",
+  "description": "Устанавливает SearXNG как поиск по умолчанию и заменяет страницу новой вкладки.",
+  "version": "1.1",
+  "icons": {
+    "128": "icon.png"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "SearXNG",
+      "keyword": "searxng",
+      "search_url": "https://opnxng.com/search?q={searchTerms}",
+      "favicon_url": "https://opnxng.com/favicon.ico",
+      "encoding": "UTF-8",
+      "is_default": true
+    }
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+}
