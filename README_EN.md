@@ -8,6 +8,10 @@ An elegant Chrome extension that replaces the default search engine and new tab 
 ![Privacy](https://img.shields.io/badge/Privacy-Focused-00C851?style=for-the-badge&logo=shield&logoColor=white)
 ![Open Source](https://img.shields.io/badge/Open-Source-FF6B35?style=for-the-badge&logo=opensourceinitiative&logoColor=white)
 
+## 📸 Screenshot
+
+![SearXNG New Tab](https://raw.githubusercontent.com/Nelyfa/SearXNGaddon/refs/heads/main/screen.png)
+
 ## ✨ Features
 
 - 🔒 **Private Search** - Uses [opnxng.com](https://opnxng.com/), one of the reliable [SearXNG](https://searx.space/) instances

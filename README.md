@@ -8,6 +8,10 @@
 ![Privacy](https://img.shields.io/badge/Privacy-Focused-00C851?style=for-the-badge&logo=shield&logoColor=white)
 ![Open Source](https://img.shields.io/badge/Open-Source-FF6B35?style=for-the-badge&logo=opensourceinitiative&logoColor=white)
 
+## 📸 Скриншот
+
+![Новая вкладка SearXNG](https://raw.githubusercontent.com/Nelyfa/SearXNGaddon/refs/heads/main/screen.png)
+
 ## ✨ Особенности
 
 - 🔒 **Приватный поиск** - Использует [opnxng.com](https://opnxng.com/), один из надежных инстансов [SearXNG](https://searx.space/)
