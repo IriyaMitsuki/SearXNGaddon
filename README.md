@@ -1,5 +1,7 @@
 # 🔍 SearXNG Search & New Tab
 
+**🇷🇺 Русский | [🇺🇸 English](README_EN.md)**
+
 Элегантное расширение для Chrome, которое заменяет стандартную поисковую систему и страницу новой вкладки на приватный поиск SearXNG.
 
 ![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)
@@ -52,6 +54,9 @@ SearXNGaddon/
 ├── index.html         # Страница новой вкладки
 ├── script.js          # Логика часов и приветствий
 ├── icon.png           # Иконка расширения
+├── LICENSE            # MIT Лицензия
+├── README.md          # Русская документация
+└── README_EN.md       # Английская документация
 └── README.md          # Документация
 ```
 
