@@ -27,9 +27,9 @@ jobs:
           rsync -av --exclude=dist --exclude=.git --exclude=.github ./ dist/
           [ -f dist/manifest.json ] || (echo "manifest.json not found in dist!" && exit 1)
 
-      - name: Write private key to file
+      - name: Restore private key from base64
         run: |
-          echo "$PRIVATE_KEY" > key.pem
+          echo "$PRIVATE_KEY" | base64 -d > key.pem
         env:
           PRIVATE_KEY: ${{ secrets.CRX_PRIVATE_KEY }}
 
