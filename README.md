@@ -10,7 +10,7 @@
 
 ## 📸 Скриншот
 
-![Новая вкладка SearXNG](https://raw.githubusercontent.com/Nelyfa/SearXNGaddon/refs/heads/main/screen.png)
+![Новая вкладка SearXNG](https://raw.githubusercontent.com/IriyaMitsuki/SearXNGaddon/refs/heads/main/screen.png)
 
 ## ✨ Особенности
 [
