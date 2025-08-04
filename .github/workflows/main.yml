@@ -24,8 +24,7 @@ jobs:
       - name: Prepare dist folder
         run: |
           mkdir -p dist
-          cp -r * dist/
-          rm -rf dist/.git dist/.github
+          rsync -av --exclude=dist --exclude=.git --exclude=.github ./ dist/
 
       - name: Build .crx
         run: |
