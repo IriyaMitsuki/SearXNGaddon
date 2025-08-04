@@ -40,5 +40,5 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: SearXNGaddon.crx
-          path: SearXNGaddon.crx
+          name: SearXNGaddon.zip
+          path: SearXNGaddon.zip
