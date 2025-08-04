@@ -25,14 +25,17 @@ jobs:
         run: |
           mkdir -p dist
           rsync -av --exclude=dist --exclude=.git --exclude=.github ./ dist/
-          # Убедимся, что manifest.json на верхнем уровне dist
           [ -f dist/manifest.json ] || (echo "manifest.json not found in dist!" && exit 1)
+
+      - name: Write private key to file
+        run: |
+          echo "$PRIVATE_KEY" > key.pem
+        env:
+          PRIVATE_KEY: ${{ secrets.CRX_PRIVATE_KEY }}
 
       - name: Build .crx
         run: |
-          crx3 --privateKey="$PRIVATE_KEY" -o SearXNGaddon.crx dist/
-        env:
-          PRIVATE_KEY: ${{ secrets.CRX_PRIVATE_KEY }}
+          crx3 --privateKey=key.pem -o SearXNGaddon.crx dist/
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
