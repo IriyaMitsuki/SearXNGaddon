@@ -10,7 +10,7 @@ An elegant Chrome extension that replaces the default search engine and new tab 
 
 ## 📸 Screenshot
 
-![SearXNG New Tab][(https://raw.githubusercontent.com/IriyaMitsuki/SearXNGaddon/refs/heads/main/screen_en.png)]
+![SearXNG New Tab](https://raw.githubusercontent.com/IriyaMitsuki/SearXNGaddon/refs/heads/main/screen_en.png)
 ## ✨ Features
 
 - 🔒 **Private Search** - Uses [search.hbubli.cc](https://search.hbubli.cc/), one of the reliable [SearXNG](https://searx.space/) instances
