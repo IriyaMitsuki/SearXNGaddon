@@ -12,8 +12,16 @@
       "name": "SearXNG",
       "keyword": "searxng",
       "search_url": "https://search.hbubli.cc/search?q={searchTerms}",
+      "suggest_url": "https://search.hbubli.cc/autocompleter?q={searchTerms}",
       "favicon_url": "https://search.hbubli.cc/favicon.ico",
+      "instant_url": "https://search.hbubli.cc/search?q={searchTerms}",
+      "image_url": "https://search.hbubli.cc/search?q={searchTerms}&categories=images",
+      "new_tab_url": "https://search.hbubli.cc/",
+      "alternate_urls": [
+        "https://search.hbubli.cc/search?q={searchTerms}&categories=general"
+      ],
       "encoding": "UTF-8",
+      "prepopulated_id": 1,
       "is_default": true
     }
   },
