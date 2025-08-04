@@ -10,8 +10,8 @@
     "search_provider": {
       "name": "SearXNG",
       "keyword": "searxng",
-      "search_url": "https://opnxng.com/search?q={searchTerms}",
-      "favicon_url": "https://opnxng.com/favicon.ico",
+      "search_url": "https://search.hbubli.cc/search?q={searchTerms}",
+      "favicon_url": "https://search.hbubli.cc/favicon.ico",
       "encoding": "UTF-8",
       "is_default": true
     }
@@ -19,4 +19,5 @@
   "chrome_url_overrides": {
     "newtab": "index.html"
   }
+
 }
