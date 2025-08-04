@@ -25,6 +25,8 @@ jobs:
         run: |
           mkdir -p dist
           rsync -av --exclude=dist --exclude=.git --exclude=.github ./ dist/
+          # Убедимся, что manifest.json на верхнем уровне dist
+          [ -f dist/manifest.json ] || (echo "manifest.json not found in dist!" && exit 1)
 
       - name: Build .crx
         run: |
