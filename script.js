@@ -105,4 +105,23 @@ document.addEventListener('DOMContentLoaded', () => {
     setGreeting();
 
     setInterval(updateClock, 1000);
+
+    // Обработка отправки формы поиска
+    const searchForm = document.querySelector('.search-form');
+    if (searchForm) {
+        searchForm.addEventListener('submit', function(e) {
+            const searchInput = document.getElementById('search-input');
+            const query = searchInput.value.trim();
+            
+            if (query) {
+                // Форма уже настроена на отправку на search.hbubli.cc
+                // Просто позволяем стандартной отправке произойти
+                return true;
+            } else {
+                e.preventDefault();
+                searchInput.focus();
+                return false;
+            }
+        });
+    }
 });
