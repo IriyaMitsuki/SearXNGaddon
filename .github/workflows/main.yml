@@ -1,0 +1,35 @@
+name: Build Addon
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        
+    - name: Install dependencies
+      run: |
+        if [ -f "package.json" ]; then
+          npm install
+        fi
+        
+    - name: Build addon
+      run: |
+        zip -r searxng-addon.zip * -x "*.git*" -x ".github/*"
+        
+    - name: Upload artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: searxng-addon
+        path: searxng-addon.zip
