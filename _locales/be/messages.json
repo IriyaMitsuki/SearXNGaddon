@@ -1,0 +1,29 @@
+{
+  "extensionName": {
+    "message": "SearXNG Пошук і Новая Укладка"
+  },
+  "extensionDescription": {
+    "message": "Усталёўвае SearXNG як пошук па змаўчанні і замяняе старонку новай укладкі."
+  },
+  "newTabTitle": {
+    "message": "Новая ўкладка"
+  },
+  "searchPlaceholder": {
+    "message": "Пошук у SearXNG..."
+  },
+  "greetingDefault": {
+    "message": "Вітаю"
+  },
+  "greetingNight": {
+    "message": "Добрай ночы"
+  },
+  "greetingMorning": {
+    "message": "Добрай раніцы"
+  },
+  "greetingAfternoon": {
+    "message": "Добры дзень"
+  },
+  "greetingEvening": {
+    "message": "Добры вечар"
+  }
+}

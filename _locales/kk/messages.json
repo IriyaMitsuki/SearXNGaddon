@@ -1,0 +1,29 @@
+{
+  "extensionName": {
+    "message": "SearXNG Іздеу және Жаңа Қойынды"
+  },
+  "extensionDescription": {
+    "message": "SearXNG-ны әдепкі іздеу жүйесі ретінде орнатады және жаңа қойынды бетін ауыстырады."
+  },
+  "newTabTitle": {
+    "message": "Жаңа қойынды"
+  },
+  "searchPlaceholder": {
+    "message": "SearXNG-да іздеу..."
+  },
+  "greetingDefault": {
+    "message": "Сәлеметсіз бе"
+  },
+  "greetingNight": {
+    "message": "Қайырлы түн"
+  },
+  "greetingMorning": {
+    "message": "Қайырлы таң"
+  },
+  "greetingAfternoon": {
+    "message": "Қайырлы күн"
+  },
+  "greetingEvening": {
+    "message": "Қайырлы кеш"
+  }
+}

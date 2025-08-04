@@ -1,0 +1,29 @@
+{
+  "extensionName": {
+    "message": "SearXNG Пошук і Нова Вкладка"
+  },
+  "extensionDescription": {
+    "message": "Встановлює SearXNG як пошук за замовчуванням і замінює сторінку нової вкладки."
+  },
+  "newTabTitle": {
+    "message": "Нова вкладка"
+  },
+  "searchPlaceholder": {
+    "message": "Пошук в SearXNG..."
+  },
+  "greetingDefault": {
+    "message": "Вітаю"
+  },
+  "greetingNight": {
+    "message": "Доброї ночі"
+  },
+  "greetingMorning": {
+    "message": "Доброго ранку"
+  },
+  "greetingAfternoon": {
+    "message": "Добрий день"
+  },
+  "greetingEvening": {
+    "message": "Добрий вечір"
+  }
+}

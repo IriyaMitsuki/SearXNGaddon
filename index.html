@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Новая вкладка</title>
+    <title id="page-title">New Tab</title>
     <style>
         :root {
             --background: #24273a;
@@ -140,14 +140,14 @@
 
     <main>
         <time id="clock">00:00</time>
-        <h1 id="greeting">Здравствуйте</h1>
+        <h1 id="greeting">Hello</h1>
         
         <form action="https://search.hbubli.cc/search" method="get" class="search-form">
             <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <circle cx="11" cy="11" r="8"></circle>
                 <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
             </svg>
-            <input type="text" name="q" class="search-input" placeholder="Поиск в SearXNG..." autofocus autocomplete="off">
+            <input type="text" name="q" class="search-input" id="search-input" placeholder="Search with SearXNG..." autofocus autocomplete="off">
         </form>
 
         <section id="quick-links">

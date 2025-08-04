@@ -1,0 +1,29 @@
+{
+  "extensionName": {
+    "message": "SearXNG Search & New Tab"
+  },
+  "extensionDescription": {
+    "message": "Sets SearXNG as default search engine and replaces new tab page."
+  },
+  "newTabTitle": {
+    "message": "New Tab"
+  },
+  "searchPlaceholder": {
+    "message": "Search with SearXNG..."
+  },
+  "greetingDefault": {
+    "message": "Hello"
+  },
+  "greetingNight": {
+    "message": "Good night"
+  },
+  "greetingMorning": {
+    "message": "Good morning"
+  },
+  "greetingAfternoon": {
+    "message": "Good afternoon"
+  },
+  "greetingEvening": {
+    "message": "Good evening"
+  }
+}
