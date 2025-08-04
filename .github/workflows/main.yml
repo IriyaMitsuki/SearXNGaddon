@@ -1,35 +1,40 @@
-name: Build Addon
+name: Build CRX Extension
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v4
-    
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '18'
-        
-    - name: Install dependencies
-      run: |
-        if [ -f "package.json" ]; then
-          npm install
-        fi
-        
-    - name: Build addon
-      run: |
-        zip -r searxng-addon.zip * -x "*.git*" -x ".github/*"
-        
-    - name: Upload artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: searxng-addon
-        path: searxng-addon.zip
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install crx3
+        run: npm install -g crx3
+
+      - name: Prepare dist folder
+        run: |
+          mkdir -p dist
+          cp -r * dist/
+          rm -rf dist/.git dist/.github
+
+      - name: Build .crx
+        run: |
+          crx3 --privateKey="$PRIVATE_KEY" -o SearXNGaddon.crx dist/
+        env:
+          PRIVATE_KEY: ${{ secrets.CRX_PRIVATE_KEY }}
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: SearXNGaddon.crx
+          path: SearXNGaddon.crx
