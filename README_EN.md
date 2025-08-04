@@ -14,7 +14,7 @@ An elegant Chrome extension that replaces the default search engine and new tab 
 
 ## ✨ Features
 
-- 🔒 **Private Search** - Uses [opnxng.com](https://opnxng.com/), one of the reliable [SearXNG](https://searx.space/) instances
+- 🔒 **Private Search** - Uses [search.hbubli.cc](https://search.hbubli.cc/), one of the reliable [SearXNG](https://searx.space/) instances
 - 🎨 **Beautiful New Tab** - Minimalist design with live clock and greeting
 - ⚡ **Quick Links** - Instant access to popular services
 - 🌙 **Dark Theme** - Eye-friendly Catppuccin color scheme
@@ -70,7 +70,7 @@ SearXNGaddon/
 - **Catppuccin Color Scheme** - Pleasant dark theme
 
 ### SearXNG Instance
-The extension uses **[opnxng.com](https://opnxng.com/)** - one of the stable and fast SearXNG instances from [searx.space](https://searx.space/) list. This instance was chosen for:
+The extension uses **[search.hbubli.cc](https://search.hbubli.cc/)** - one of the stable and fast SearXNG instances from [searx.space](https://searx.space/) list. This instance was chosen for:
 - High availability
 - Fast response time
 - Stable operation
