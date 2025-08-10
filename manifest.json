@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "__MSG_extensionName__",
   "description": "__MSG_extensionDescription__",
-  "version": "1.5",
+  "version": "1.6",
   "default_locale": "en",
   "icons": {
     "128": "icon.png"
@@ -11,14 +11,14 @@
     "search_provider": {
       "name": "SearXNG",
       "keyword": "searxng",
-      "search_url": "https://search.hbubli.cc/search?q={searchTerms}",
-      "suggest_url": "https://search.hbubli.cc/autocompleter?q={searchTerms}",
-      "favicon_url": "https://search.hbubli.cc/favicon.ico",
-      "instant_url": "https://search.hbubli.cc/search?q={searchTerms}",
-      "image_url": "https://search.hbubli.cc/search?q={searchTerms}&categories=images",
-      "new_tab_url": "https://search.hbubli.cc/",
+      "search_url": "https://search.oh64.moe/search?q={searchTerms}",
+      "suggest_url": "https://search.oh64.moe/autocompleter?q={searchTerms}",
+      "favicon_url": "https://search.oh64.moe/favicon.ico",
+      "instant_url": "https://search.oh64.moe/search?q={searchTerms}",
+      "image_url": "https://search.oh64.moe/search?q={searchTerms}&categories=images",
+      "new_tab_url": "https://search.oh64.moe/",
       "alternate_urls": [
-        "https://search.hbubli.cc/search?q={searchTerms}&categories=general"
+        "https://search.oh64.moe/search?q={searchTerms}&categories=general"
       ],
       "encoding": "UTF-8",
       "prepopulated_id": 1,
